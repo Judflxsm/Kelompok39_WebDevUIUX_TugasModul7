@@ -1,7 +1,7 @@
 // app/team/[id]/page.js — Dynamic Team Member Page (Server Component)
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import teamData from '../../../data/team.json'
+import teamData from 'data/team.json'
 
 // ── generateStaticParams ────────────────────────────────────
 export async function generateStaticParams() {
